@@ -2,7 +2,7 @@
 
 namespace src\Integration;
 
-class DataProvider
+class DataProvider implements DataProviderInterface
 {
     private $host;
     private $user;

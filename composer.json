@@ -1,0 +1,16 @@
+{
+  "name": "skyeng/skyeng",
+  "description": "skyeng test",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dkop",
+      "email": "dkopelevich@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/cache": "1.0.1",
+    "psr/log": "1.0.2"
+  }
+}

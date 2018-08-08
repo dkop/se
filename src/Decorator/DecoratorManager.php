@@ -80,6 +80,8 @@ class DecoratorManager implements DataProviderInterface
                 $cacheItem
                     ->set($result)
                     ->expiresAt(new DateTime('+' . $this->cacheTtl));
+                
+                $lock->release();
 
                 return $result;
             }
